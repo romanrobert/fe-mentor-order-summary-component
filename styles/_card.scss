@@ -1,0 +1,130 @@
+.order-summary {
+    height: 100vh;
+    max-height: 56.25rem;
+    width: 100%;
+    background: url('../images/pattern-background-desktop.svg') no-repeat center top;
+    background-color: #E0E8FF;
+    margin: auto;
+    display: flex;
+}
+
+.card-wrapper{
+    background-color: $clr-white;
+    width: 28.1875rem;
+    max-width: 90%;
+    height: 43.5625rem;
+    max-height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card__img{
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    height: 13.75rem;
+    max-width: 100%;
+}
+
+.card__main{
+    width: 80%;
+    margin: 3.25rem auto;
+    h1{
+        font-size: 1.75rem;
+        font-weight: 900;
+        text-align: center;
+        margin-bottom: 1.625rem;
+        color: $clr-heading;
+    }
+    p{
+        font-size: 1rem;
+        text-align: center;
+        letter-spacing: 0.3px;
+        line-height: 1.625rem;
+        color: $clr-text;
+        
+    }
+    
+}
+
+.card__music{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    max-width: 19.1875rem;
+    margin: 2.75rem auto;
+}
+
+.music__plan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.plan__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:1rem ;
+
+    h2{
+        
+        font-size: 16px;
+    }
+}
+
+.music__btn{
+    background-color: white;
+    border: none;
+    color: #4C40C4;
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+    
+    &:hover{
+        text-decoration: none;
+        color: $clr-btn-primary-active;
+    }
+}
+
+.card__btn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.125rem;
+ .payment-btn{
+     width: 22.125rem;
+     max-width: 95%;
+     height: 3.125rem;
+     border: none;
+     border-radius: 14px;
+     background-color:$clr-btn-primary ;
+     color: #fff;
+     font-weight: 600;
+     cursor: pointer;
+     box-shadow: 0px 20px 20px #D5D2E9;
+     &:hover{
+         background-color: $clr-btn-primary-active;
+     }
+ }
+
+ .cancel-btn{
+     margin-top: 2rem;
+     border: none;
+     background-color: white;
+     color:$clr-btn-secondary ;
+     cursor: pointer;
+     &:hover{
+         color: $clr-btn-secondary-active;
+         font-weight: 900;
+     }
+ }
+}
+
